@@ -58,3 +58,30 @@
     --chart-5: 340 75% 55%;
   }
 }
+
+
+@layer utilities {
+  /* ===== UTILITIES */
+  .text-w {
+    @apply text-white font-semibold
+  }
+  
+  
+  
+  .text-24-bold {
+    @apply text-[24px] leading-[28px] font-bold;
+  }
+  .bg-abstract {
+   @apply bg-[url('/abstract-bg.svg')]
+  }
+  /* =====  SHADCN OVERRIDES */
+  .shad-primary-btn {
+    @apply bg-blue-500 hover:bg-blue-600 text-white !important;
+  }
+  .shad-glass-btn {
+    @apply relative overflow-hidden bg-white bg-opacity-10 backdrop-blur-md border border-white border-opacity-20 shadow-lg text-white transition-all duration-300 !important;
+  }
+  
+  
+  
+}

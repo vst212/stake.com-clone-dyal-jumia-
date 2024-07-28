@@ -1,19 +1,15 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import MainSection from '@/components/MainSection'
+import Navbar from "@/components/Navbar";
+import SideBar from "@/components/SideBar";
 
 export default function Home() {
   return (
-    <>
-      <Button className="bg-blue-500">CLICK</Button>
-      <h1>HELLO STAKE</h1>
-
-      <Image
-        src="/stake.svg"
-        style={{ filter: 'invert(100%)' }}
-        width={100}
-        height={100}
-        alt="log"
-      />
-    </>
+    <div className="w-full flex ">
+      <SideBar />
+      <div className='flex-3 w-full'>
+        <Navbar />
+        <MainSection />
+      </div>
+    </div>
   )
 }

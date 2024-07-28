@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          'min-h-screen bg-blue-900 text-white font-sans antialiased',
+          'min-h-screen bg-gray-500 text-white font-sans antialiased',
           fontSans.variable
         )}
       >
