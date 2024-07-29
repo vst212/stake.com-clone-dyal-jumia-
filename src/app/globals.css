@@ -68,7 +68,9 @@
   .text-p{
     @apply text-gray-200 font-normal leading-normal	 
   }
-  
+   .link-btn{
+    @apply text-white font-semibold text-center bg-gray-600 py-4 px-6 h-fit	rounded-md shadow-lg
+  }
   
   
   .text-24-bold {

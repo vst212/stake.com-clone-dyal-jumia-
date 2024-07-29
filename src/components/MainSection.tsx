@@ -39,7 +39,7 @@ const MainSection = () => {
         </div>
       </section>
 
-       <section className="w-full p-6 flex gap-6 ">
+      <section className="container my-3 w-full p-6 flex gap-6 ">
         <div className="flex flex-col justify-start  gap-4">
           <div className="flex gap-2 justify-start items-center">
             <Image src="/sports.svg" width={10} height={10} alt="casino" />
@@ -50,10 +50,10 @@ const MainSection = () => {
             width={1000}
             height={1000}
             alt="casino"
-            className=" w-full rounded-sm shadow-lg	 "
+            className="max-h-[234.61px] w-full rounded-sm shadow-lg	 "
           />
           <p className="text-title">Leading Online Casino</p>
-          <p className="text-p">
+          <p className="text-p h-24 		 ">
             Browse our giant range of casino games as Stake offers a fair and
             fun online gambling experience. Play Slots, Live Casino, Blackjack,
             Baccarat, Roulette, and thousands of classic casino games right from
@@ -68,7 +68,13 @@ const MainSection = () => {
         </div>
         <div className="flex flex-col justify-start  gap-4">
           <div className="flex gap-2 justify-start items-center">
-            <Image src="/sports.svg" width={100} height={100} className='h-2 w-2' alt="casino" />
+            <Image
+              src="/sports.svg"
+              width={100}
+              height={100}
+              className="h-2 w-2"
+              alt="casino"
+            />
             <p className="text-title text-lg">Sports</p>
           </div>
           <Image
@@ -79,7 +85,7 @@ const MainSection = () => {
             className="max-h-[234.61px] w-full rounded-sm shadow-lg"
           />
           <p className="text-title">Best Sports Betting Online</p>
-          <p className="text-p">
+          <p className="text-p h-24">
             Bet on your favourite teams, players and leagues from all around the
             world on our sports betting platform. Gamble on a wide range of
             sports betting options and markets for live sports across MMA,
@@ -92,6 +98,68 @@ const MainSection = () => {
           >
             Go to Sportbook
           </Link>
+        </div>
+      </section>
+
+      <section className="container my-3">
+        <div className="h-24 mb-4 flex  justify-between items-center w-full  bg-gray-900 rounded-md">
+          <Link className="link-btn m-4" href="/">
+            Learn more
+          </Link>
+          <Image
+            src="/drake.svg"
+            width={100}
+            height={100}
+            alt="drake"
+            className="flex-1 w-full h-full"
+          />
+          <Image
+            src="/drake.avif"
+            width={1000}
+            height={1000}
+            alt="drake"
+            className="flex-1 w-full max-w-fit h-full "
+          />
+        </div>
+        <div className=" flex gap-12 justify-between w-full p-6  bg-gray-900 rounded-md">
+          <div className="flex-1 flex justify-start items-center">
+            <p className="text-title text-xl ">No Crypto? No problem.</p>
+          </div>
+          <div className="flex-1 flex gap-4 justify-center items-center">
+            <Image
+              src="/mastercard.svg"
+              width={100}
+              height={100}
+              alt="mastercard"
+              className="flex-1"
+            />
+            <Image
+              src="/apple.svg"
+              width={100}
+              height={100}
+              alt="apple"
+              className="flex-1"
+            />
+            <Image
+              src="/google.svg"
+              width={100}
+              height={100}
+              alt="google"
+              className="flex-1"
+            />
+            <Image
+              src="/samsung.svg"
+              width={100}
+              height={100}
+              alt="samsung"
+              className="flex-1"
+            />
+          </div>
+          <div className="flex-1 flex justify-end items-center">
+            <Link className="link-btn m-4" href="/">
+              Buy Crypto
+            </Link>
+          </div>
         </div>
       </section>
     </div>

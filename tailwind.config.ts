@@ -30,8 +30,9 @@ const config = {
         gray: {
           200: '#b1bad3',
           500: '#213743',
-          700:'#1A2C38',
-          900:'#0F212E',
+          600: '#2F4553',
+          700: '#1A2C38',
+          900: '#0F212E',
         },
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
