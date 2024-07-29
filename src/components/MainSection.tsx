@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import { Button } from './ui/button'
 import SocialBtn from './SocialBtn'
+import Link from 'next/link'
 
 const MainSection = () => {
   return (
     <div className="w-full">
-      <section className="relative h-[300px] flex gap-6 bg-gary-900">
+      <section className="relative h-[300px] flex gap-6 bg-gary-900 overflow-hidden">
         <div className="flex-1 flex items-center justify-center">
           <div className="w-1/2 flex flex-col  ">
             <h2 className="text-24-bold text-center mb-4">Play Smarter</h2>
@@ -35,6 +36,62 @@ const MainSection = () => {
             alt="everton"
             className="h-full w-full"
           />
+        </div>
+      </section>
+
+       <section className="w-full p-6 flex gap-6 ">
+        <div className="flex flex-col justify-start  gap-4">
+          <div className="flex gap-2 justify-start items-center">
+            <Image src="/sports.svg" width={10} height={10} alt="casino" />
+            <p className="text-title text-lg">Casino</p>
+          </div>
+          <Image
+            src="/casino.avif"
+            width={1000}
+            height={1000}
+            alt="casino"
+            className=" w-full rounded-sm shadow-lg	 "
+          />
+          <p className="text-title">Leading Online Casino</p>
+          <p className="text-p">
+            Browse our giant range of casino games as Stake offers a fair and
+            fun online gambling experience. Play Slots, Live Casino, Blackjack,
+            Baccarat, Roulette, and thousands of classic casino games right from
+            your browser, including your favourite Stake Originals.
+          </p>
+          <Link
+            href="casino"
+            className="shad-primary-btn rounded-md text-center p-4"
+          >
+            Go to Casino
+          </Link>
+        </div>
+        <div className="flex flex-col justify-start  gap-4">
+          <div className="flex gap-2 justify-start items-center">
+            <Image src="/sports.svg" width={100} height={100} className='h-2 w-2' alt="casino" />
+            <p className="text-title text-lg">Sports</p>
+          </div>
+          <Image
+            src="/sports.avif"
+            width={1000}
+            height={1000}
+            alt="casino"
+            className="max-h-[234.61px] w-full rounded-sm shadow-lg"
+          />
+          <p className="text-title">Best Sports Betting Online</p>
+          <p className="text-p">
+            Bet on your favourite teams, players and leagues from all around the
+            world on our sports betting platform. Gamble on a wide range of
+            sports betting options and markets for live sports across MMA,
+            Basketball, Soccer and more for an unbeatable sports betting
+            experience.
+          </p>
+          <Link
+            href="casino"
+            className="shad-primary-btn rounded-md text-center p-4"
+          >
+            Go to Sportbook
+          </Link>
         </div>
       </section>
     </div>

@@ -62,8 +62,11 @@
 
 @layer utilities {
   /* ===== UTILITIES */
-  .text-w {
+  .text-title {
     @apply text-white font-semibold
+  }
+  .text-p{
+    @apply text-gray-200 font-normal leading-normal	 
   }
   
   

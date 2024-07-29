@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex justify-between items-center py-3 px-12 shadow-lg">
+    <nav className=" w-full flex justify-between items-center py-3 px-12 bg-gray-700 shadow-lg">
       <Link href="/">
         <Image
           src="/stake.svg"
@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="flex items-center gap-2">
         <Button
           variant="ghost"
-          className="text-w hover:bg-transparent hover:text-white"
+          className="text-title hover:bg-transparent hover:text-white"
         >
           Sign in
         </Button>
