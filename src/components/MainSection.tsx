@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { Button } from './ui/button'
 import SocialBtn from './SocialBtn'
 import Link from 'next/link'
+import TableSection from './TableSection'
+import Footer from './Footer'
 
 const MainSection = () => {
   return (
@@ -162,6 +164,9 @@ const MainSection = () => {
           </div>
         </div>
       </section>
+      
+      <TableSection />
+      <Footer />
     </div>
   )
 }

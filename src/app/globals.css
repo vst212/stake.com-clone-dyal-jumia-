@@ -71,10 +71,18 @@
    .link-btn{
     @apply text-white font-semibold text-center bg-gray-600 py-4 px-6 h-fit	rounded-md shadow-lg
   }
-  
+  .table-head {
+    @apply text-gray-200 font-semibold text-lg !important
+  }
+  .table-row {
+    @apply p-6 text-lg  font-semibold  border-0 !important
+  }
   
   .text-24-bold {
     @apply text-[24px] leading-[28px] font-bold;
+  }
+  .text-24-bold-link{
+    @apply text-gray-200 text-lg font-bold leading-[28px] hover:text-white ;
   }
   .bg-abstract {
    @apply bg-[url('/abstract-bg.svg')]
