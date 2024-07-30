@@ -7,8 +7,8 @@ import Footer from './Footer'
 
 const MainSection = () => {
   return (
-    <div className="w-full">
-      <section className="relative h-[300px] flex gap-6 bg-gary-900 overflow-hidden">
+    <div className="w-full mt-[64px]">
+      <section className="relative h-[300px] flex gap-6 bg-gray-900 overflow-hidden">
         <div className="flex-1 flex items-center justify-center">
           <div className="w-1/2 flex flex-col  ">
             <h2 className="text-24-bold text-center mb-4">Play Smarter</h2>
@@ -29,14 +29,14 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-        <div className="absolute top-0 bottom-0  -right-1/4 bg-abstract w-full -z-10" />
-        <div className="h-full flex-1">
+        <div className="absolute top-0 bottom-0  -right-1/4 bg-abstract w-full " />
+        <div className="h-full flex-1 z-10">
           <Image
             src="/welcome-top.jpeg"
             width={1000}
             height={1000}
             alt="everton"
-            className="h-full w-full"
+            className="h-full w-full "
           />
         </div>
       </section>
@@ -44,7 +44,13 @@ const MainSection = () => {
       <section className="container my-3 w-full p-6 flex gap-6 ">
         <div className="flex flex-col justify-start  gap-4">
           <div className="flex gap-2 justify-start items-center">
-            <Image src="/sports.svg" width={10} height={10} alt="casino" />
+            <Image
+              src="/casino.png"
+              width={1000}
+              height={1000}
+              className="h-5 w-5"
+              alt="casino"
+            />
             <p className="text-title text-lg">Casino</p>
           </div>
           <Image
@@ -71,10 +77,10 @@ const MainSection = () => {
         <div className="flex flex-col justify-start  gap-4">
           <div className="flex gap-2 justify-start items-center">
             <Image
-              src="/sports.svg"
-              width={100}
-              height={100}
-              className="h-2 w-2"
+              src="/sports.png"
+              width={1000}
+              height={1000}
+              className="h-5 w-5 "
               alt="casino"
             />
             <p className="text-title text-lg">Sports</p>
@@ -164,7 +170,7 @@ const MainSection = () => {
           </div>
         </div>
       </section>
-      
+
       <TableSection />
       <Footer />
     </div>

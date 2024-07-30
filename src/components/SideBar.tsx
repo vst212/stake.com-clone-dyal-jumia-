@@ -2,7 +2,7 @@ import React from 'react'
 
 const SideBar = () => {
   return (
-    <div className='flex-1'>SideBar</div>
+    <div className='max-w-[112px] w-[112px'>SideBar</div>
   )
 }
 

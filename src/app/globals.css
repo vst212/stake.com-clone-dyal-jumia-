@@ -98,3 +98,16 @@
   
   
 }
+
+
+
+.svg-icon {
+    pointer-events: none;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    flex-shrink: 0;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}

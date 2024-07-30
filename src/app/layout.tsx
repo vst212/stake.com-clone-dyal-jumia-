@@ -3,6 +3,8 @@ import { Inter as FontSans } from 'next/font/google'
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "@/components/Navbar";
+import SideBar from "@/components/SideBar";
 
 
  
@@ -26,11 +28,15 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
-          'min-h-screen bg-gray-500 text-white font-sans antialiased',
+          'relative min-h-screen bg-gray-500 text-white font-sans antialiased',
           fontSans.variable
         )}
       >
-        <ThemeProvider>{children}</ThemeProvider>
+        <Navbar />
+        <div className="flex">
+          <SideBar/>
+          <ThemeProvider>{children}</ThemeProvider>
+        </div>
       </body>
     </html>
   )

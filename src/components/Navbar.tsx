@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className=" w-full flex justify-between items-center py-3 px-12 bg-gray-700 shadow-lg">
+    <nav className="fixed h-16 w-full flex justify-between items-center py-6 px-12 bg-gray-700 shadow-lg z-50 ">
       <Link href="/">
         <Image
           src="/stake.svg"
