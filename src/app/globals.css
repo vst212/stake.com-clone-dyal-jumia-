@@ -59,33 +59,32 @@
   }
 }
 
-
 @layer utilities {
   /* ===== UTILITIES */
   .text-title {
-    @apply text-white font-semibold
+    @apply text-white font-semibold;
   }
-  .text-p{
-    @apply text-gray-200 font-normal leading-normal	 
+  .text-p {
+    @apply text-grey-200 font-normal leading-normal;
   }
-   .link-btn{
-    @apply text-white font-semibold text-center bg-gray-600 py-4 px-6 h-fit	rounded-md shadow-lg
+  .link-btn {
+    @apply text-white font-semibold text-center bg-grey-600 py-4 px-6 h-fit	rounded-md shadow-lg;
   }
   .table-head {
-    @apply text-gray-200 font-semibold text-lg !important
+    @apply text-grey-200 font-semibold text-lg !important;
   }
   .table-row {
-    @apply p-6 text-lg  font-semibold  border-0 !important
+    @apply p-6 text-lg  font-semibold  border-0 !important;
   }
-  
+
   .text-24-bold {
     @apply text-[24px] leading-[28px] font-bold;
   }
-  .text-24-bold-link{
-    @apply text-gray-200 text-lg font-bold leading-[28px] hover:text-white ;
+  .text-24-bold-link {
+    @apply text-grey-200 text-lg font-bold leading-[28px] hover:text-white;
   }
   .bg-abstract {
-   @apply bg-[url('/abstract-bg.svg')]
+    @apply bg-[url('/abstract-bg.svg')];
   }
   /* =====  SHADCN OVERRIDES */
   .shad-primary-btn {
@@ -94,20 +93,33 @@
   .shad-glass-btn {
     @apply relative overflow-hidden bg-white bg-opacity-10 backdrop-blur-md border border-white border-opacity-20 shadow-lg text-white transition-all duration-300 !important;
   }
-  
-  
-  
 }
 
-
-
 .svg-icon {
-    pointer-events: none;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    flex-shrink: 0;
-    display: inline-block;
-    width: 1em;
-    height: 1em;
+  pointer-events: none;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  flex-shrink: 0;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.bg-pocker {
+  background-image: url('/casino-poker-cards.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-sport-balls {
+  background-image: url('/sports-balls.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.link-icon:hover svg{
+  color: #ffff  !important;
 }

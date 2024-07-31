@@ -15,7 +15,7 @@ const TableSection = () => {
   return (
     <section className="w-full container">
       <Tabs defaultValue="casinoBet" className="w-full">
-        <TabsList className="grid w-full grid-cols-2 gap-2 max-w-[400px] h-18 rounded-full bg-gray-900">
+        <TabsList className="grid w-full grid-cols-2 gap-2 max-w-[400px] h-18 rounded-full bg-grey-900">
           <TabsTrigger
             value="casinoBet"
             className="rounded-full text-white text-lg p-3 "
@@ -51,15 +51,15 @@ const TableSection = () => {
                   })}
                 >
                   <TableCell>{bet.game}</TableCell>
-                  <TableCell className="text-gray-200">{bet.user}</TableCell>
-                  <TableCell className="text-gray-200">{bet.time}</TableCell>
-                  <TableCell className=" text-gray-200">
+                  <TableCell className="text-grey-200">{bet.user}</TableCell>
+                  <TableCell className="text-grey-200">{bet.time}</TableCell>
+                  <TableCell className=" text-grey-200">
                     {bet.betAmount}
                   </TableCell>
-                  <TableCell className=" text-gray-200">
+                  <TableCell className=" text-grey-200">
                     {bet.multiplier}
                   </TableCell>
-                  <TableCell className="text-right  text-gray-200">
+                  <TableCell className="text-right  text-grey-200">
                     {bet.payout}
                   </TableCell>
                 </TableRow>

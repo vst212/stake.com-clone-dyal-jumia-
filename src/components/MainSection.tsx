@@ -7,8 +7,8 @@ import Footer from './Footer'
 
 const MainSection = () => {
   return (
-    <div className="w-full mt-[64px]">
-      <section className="relative h-[300px] flex gap-6 bg-gray-900 overflow-hidden">
+    <div className="w-full mt-32 md:mt-[64px] lg:pl-[120px] ">
+      <section className="relative h-[300px] flex gap-6 bg-grey-600 overflow-hidden">
         <div className="flex-1 flex items-center justify-center">
           <div className="w-1/2 flex flex-col  ">
             <h2 className="text-24-bold text-center mb-4">Play Smarter</h2>
@@ -16,10 +16,10 @@ const MainSection = () => {
               Register instantly
             </Button>
             <div className="flex items-center justify-center gap-2">
-              <hr className="inline-block w-24 h-px my-8 bg-gray-200 border-0 dark:bg-gray-900" />
-              <span className="text-gray-200 text-lg">OR</span>
+              <hr className="inline-block w-24 h-px my-8 bg-grey-200 border-0 dark:bg-grey-900" />
+              <span className="text-grey-200 text-lg">OR</span>
 
-              <hr className="inline-block w-24 h-px my-8 bg-gray-200 border-0 dark:bg-gray-900" />
+              <hr className="inline-block w-24 h-px my-8 bg-grey-200 border-0 dark:bg-grey-900" />
             </div>
             <div className="flex gap-2 items-center justify-between px-12">
               <SocialBtn path="/google-login.svg" />
@@ -110,7 +110,7 @@ const MainSection = () => {
       </section>
 
       <section className="container my-3">
-        <div className="h-24 mb-4 flex  justify-between items-center w-full  bg-gray-900 rounded-md">
+        <div className="h-24 mb-4 flex  justify-between items-center w-full  bg-grey-900 rounded-md">
           <Link className="link-btn m-4" href="/">
             Learn more
           </Link>
@@ -129,7 +129,7 @@ const MainSection = () => {
             className="flex-1 w-full max-w-fit h-full "
           />
         </div>
-        <div className=" flex gap-12 justify-between w-full p-6  bg-gray-900 rounded-md">
+        <div className=" flex gap-12 justify-between w-full p-6  bg-grey-900 rounded-md">
           <div className="flex-1 flex justify-start items-center">
             <p className="text-title text-xl ">No Crypto? No problem.</p>
           </div>

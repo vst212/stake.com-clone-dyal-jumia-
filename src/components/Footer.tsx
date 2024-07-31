@@ -12,7 +12,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="w-full mt-6  bg-gray-900 shadow-lg py-6">
+    <div className="w-full mt-6  bg-grey-900 shadow-lg py-6">
       <div className="container">
         <div className="w-full  flex gap-4 ">
           <div className="flex-1 px-4 py-2 flex flex-col  justify-start items-start gap-2">
@@ -189,7 +189,7 @@ const Footer = () => {
 
         <div className="w-full my-6 h-px rounded-full bg-[#213743]" />
 
-        <div className="text-center text-gray-200">
+        <div className="text-center text-grey-200">
           <div className="flex justify-center">
             <Image
               src="stake.svg"
